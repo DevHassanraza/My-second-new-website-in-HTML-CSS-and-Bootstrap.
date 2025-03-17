@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-fluid .container img{
+    height: 100px;
+}
+.btnwatsap{
+    border: 1px solid #27ae60;
+   
+    color: #27ae60;
+    font-size: 16px;
+    
+}
+
+.call{
+    border: 1px solid #27ae60;
+    background-color: #2afece;
+  
+    color: white;
+}
+.call i{
+    padding: 10px;
+}
+.btnwatsap i{
+    color: #27ae60;
+    padding: 10px;
+    font-size: 1rem;
+}
+.btnwatsap:hover{
+    border: 1px solid #27ae60;
+}
+
+.call:hover{
+    border: 1px solid #27ae60;
+    background-color: #2afece;
+}
+/* banner*/
+.bannercontent h1{
+    font-size: 52px;
+    font-weight: 700px;
+}
+.bannercontent span{
+    color: #2699fb;
+}
+.bannercontent p{
+    font-size: 22px;
+}
+.bannercontent ul{
+    list-style: none;
+}
+.bannercontent ul li{
+    font-size: 22px;
+}
+.bannercontent ul li i{
+    color: #2699fb;
+}
+.bannercontentbtn button{
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    
+}
+.Demo{
+    background: linear-gradient(to right,#2699fb, #27ae60);
+    color: white;
+}
+.bannerForm{
+    padding: 40px;
+}
+.bannerForm h3{
+    font-size: 18px;
+    font-weight: 700px;
+}
+.bannerForm button{
+    width: 100%;
+    padding: 10px 0px;
+    color: white;
+    background: linear-gradient(to right,#2699fb, #27ae60);
+    border-radius: 5px;
+}
+.counter h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699fb;
+}
+
+/***heightlight*/
+.heightlight{
+    background-color: #f7faff;
+}
+.heightlight h2{
+    color: #0a2134;
+    font-size: 36px;
+    font-weight: 700;
+}
+.heightlight p{
+    font-size: 18px;
+}
+.container-fluid img{
+    width: 150px;
+    height: 60px;
+}

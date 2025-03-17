@@ -1,0 +1,62 @@
+
+@media only screen and (min-width: 200px) and (max-width: 574px){
+    .btn-outer{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background-color: white;
+        padding: 4px 0px;
+        justify-content: center !important;
+        left: 0px;
+        
+    }
+    .btnwatsap, .call{
+        padding: 7px;
+        font-size: 14px;
+       
+    }
+    .bannercontent h1{
+        font-size: 28px;
+        font-weight: 700px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .bannercontent br{
+        display: none;
+    }
+    .bannercontent p,.bannercontent ul li{
+        font-size: 16px;
+    }
+    .bannercontentbtn{
+        flex-direction: column;
+    }
+    .bannercontentbtn button{
+        width: 100%;
+    }
+    .bannerForm{
+        padding: 20px;
+    }
+    .heightlight h2{
+        
+        font-size: 28px;
+        
+        
+    }
+    .heightlight p{
+        font-size: 15px;
+    }
+}
+
+/**banner content*/
+@media only screen and (min-width:575px) and (max-width: 992px) {
+    
+}
+
+
+
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+    }
+}

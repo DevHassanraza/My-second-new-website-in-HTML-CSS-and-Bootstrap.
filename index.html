@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  </head>
+  <body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="enModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="enModalModalLabel">Login Option</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="bannerForm shadow-lg p3">
+              <h3>Book Your Free Class Now!</h3>
+              <p>2 day of free demo classes without paying in advance</p>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group">
+                  <label for="input-group-text">Phone</label>
+                </div>
+                <span class="input-group-text" id="basic-addon1">+92</span>
+                <input type="phone" class="form-control" placeholder="Phone" aria-label="Phone" aria-describedby="basic-addon1">
+              </div>
+
+              <div class="mb-3">
+                <button>Registration Now</button>
+              </div>
+              
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-----book demo-->
+    <div class="modal fade" id="demoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="enModalModalLabel">Book Enquiry</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="bannerForm shadow-lg p3">
+              
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group">
+                  <label for="input-group-text">Phone</label>
+                </div>
+                <span class="input-group-text" id="basic-addon1">+92</span>
+                <input type="phone" class="form-control" placeholder="Phone" aria-label="Phone" aria-describedby="basic-addon1">
+              </div>
+    
+
+              
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+
+    <header class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg ">
+              <a class="navbar-brand" href="/index.html">
+                <img src="/image.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Course</a>
+                  </li>
+
+                </ul>
+              </div>
+            </nav>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="mobilemenu" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                  <img src="/image.png" alt="">
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Course</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+
+   
+    <!-----carousel-->
+    <div class="carousel slide" data-bs-ride="carousel" id="slider1">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#slider1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#slider1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#slider1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+      <div class="container">
+        <div class="row justify-content-between gy-4 align-items-center">
+          <div class="col-lg-6">
+            <div class="bannercontent">
+              <h1>Carrer Opportunites <br> in <span>Digital Marketing</span></h1>
+              <p>Digital marketing course so good,you only pay-offer placement</p>
+
+              <ul class="m-0 p-0">
+                <li class="mb-3"><i class="fa-solid fa-circle-check"></i>  Specialization:Performance marketing</li>
+                <li class="mb-3"><i class="fa-solid fa-circle-check"></i>  Min salary of Rs 4.5 LPA</li>
+                <li class="mb-3"><i class="fa-solid fa-circle-check"></i>  50 seats only</li>
+              </ul>
+              <div class="bannercontentbtn d-flex gap-3">
+                <button data-bs-toggle="modal" data-bs-target="#demoModal" class="Demo">Book 2 Days Demo</button>
+                <button data-bs-toggle="modal" data-bs-target="#enModal" class="Download"><i class="fa-solid fa-download"></i> Download curriculum</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-5">
+            <form action="" class="bannerForm shadow-lg">
+              <h3>Book Your Free Class Now!</h3>
+              <p>2 day of free demo classes without paying in advance</p>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group">
+                  <label for="input-group-text">Phone</label>
+                </div>
+                <span class="input-group-text" id="basic-addon1">+92</span>
+                <input type="phone" class="form-control" placeholder="Phone" aria-label="Phone" aria-describedby="basic-addon1">
+              </div>
+
+              <div class="mb-3">
+                <button>Registration Now</button>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+
+      </div>
+      <section class="container shadow-lg mt-4 counter">
+        <div class="row p-5 row-cols-lg-5 row-cols-md-2">
+          <div class="col">
+            <h2>100+</h2>
+            <p>Student Trained</p>
+          </div>
+          <div class="col">
+            <h2>100+</h2>
+            <p>Student Trained</p>
+          </div>
+          <div class="col">
+            <h2>100+</h2>
+            <p>Student Trained</p>
+          </div>
+          <div class="col">
+            <h2>100+</h2>
+            <p>Student Trained</p>
+          </div>
+          <div class="col">
+            <h2>11th MAY</h2>
+            <p>Student Trained</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+
+    <!----highlight-option-->
+    <section class=" container-fluid heightlight py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12">
+            <h2>Heightlight of the Course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dolor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 col-12"></div>
+      </div>
+    </section>
+    <section class="container-fluid py-4 bg-secondary-subtle">
+      <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h1 class="text-center fw-bold">Digital Marketing Course <br> FAQs</h1>
+          <p class="text-center">     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ratione nisi velit.</p>
+
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-collapse collapse show accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="collapseOne">
+                  What is web development?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+              <div class="accordion-collapse accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="true" aria-controls="collapseOne">
+                  
+                    2 What is web development?
+                  </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+              </div>
+              
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-collapse collapse show accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="true" aria-controls="collapseOne">
+                  What is web development?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+              <div class="accordion-collapse collapseaccordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="true" aria-controls="collapseOne">
+                  
+                    2 What is web development?
+                  </button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      
+    </section>
+    <footer>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+          <p class="text-center text-muted">© 2022 Company, Inc</p>
+        </footer>
+      </div>
+      
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
